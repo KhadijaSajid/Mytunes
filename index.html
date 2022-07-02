@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myTunes</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="div btns fixed-top" >
+        <button class="btn1">myTunes</button>
+        <button class="btn1">Overview</button>
+        <button class="btn1" onclick="document.getElementById('music').scrollIntoView();">Music </button>
+        <button class="btn1" onclick="document.getElementById('movie').scrollIntoView();">Video </button>
+
+        <button class="btn1" onclick="document.getElementById('gift').scrollIntoView();">Gift Cards </button>
+
+
+        <!-- <button class="btn1" onclick="document.getElementById('music').scrollIntoView();">Video</button> -->
+        <!-- <button class="btn1" onclick="document.getElementById('gift').scrollIntoView()">Gift Cards</button> -->
+    </div>
+
+
+    <div class="div div1 " id="nav">
+        <img class="image1" src="images/music.jpg" alt="pic">
+        <div class="rela">
+            <h3 class="head3">myTunes</h3>
+            <p class="p1">Your music, movies, and TV shows take center stage.</p>
+            <p class="p2">myTunes is the best way to organize and enjoy the music, movies, and TV shows you already have
+                —
+                and shop for
+                the ones you want. Enjoy all the entertainment myTunes has to offer on your Mac and PC.</p>
+        </div>
+    </div>
+
+
+    <div class="div div2" id="music">
+        <h2 class="musichead"><img src="images/icons8_music_32.png" alt="icon"> Music</h2>
+        <h4 class="musichead">45 million songs. Zero ads.</h4>
+
+        <p class="musicPara">Stream over 45 million songs, ad-free. Or download albums and tracks to listen to offline.
+            All the music in
+            your personal myTunes library — no matter where it came from — lives right alongside the Orange Music
+            catalog. Start your free three-month trial with no commitment, and cancel anytime.</p>
+        <button class="trialButton" onclick="document.getElementById('nav').scrollIntoView();">Start Your Trial Now</button>
+        <p class="orangePara">Orange Music is available in myTunes, and for iOS and Android devices.</p>
+        <img class="deskImg" src="images/dekt.jpg" alt="pcPic">
+
+    </div>
+
+    <div class="div div3" id="movie">
+        <p class="div3para">The movie and TV collection you always wished for. Granted.</p>
+        <p class="div3Para2">With over 100,000 movies and TV shows to choose from, there's always something great to
+            watch on myTunes and
+            if you watch on Orange TV 4K, you'll be able to enjoy a tremendous selection of your favorite content in 4K
+            HDR. So get ready to enjoy episodes of your favorite TV shows or hit movies you've been waiting to see —
+            anytime, anywhere. Just tap to play, or even download if you're going somewhere you won't have Wi-Fi.</p>
+        <button class="readBtn" onclick="document.getElementById('nav').scrollIntoView();">Read More</button>
+        <br>
+        <img class="frontPage" src="images/frontpage.png" alt="picOf front page">
+
+
+    </div>
+
+
+    <div class="div div4">
+        <p class="worldpara">A world of entertainment. Available wherever you are.</p>
+        <p class="worldpara2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem veniam nobis, nisi ut
+            expedita, doloribus
+            reprehenderit explicabo non velit repellat alias saepe inventore repellendus? Molestias suscipit eos
+            tempora? Quae quaerat cumque in veritatis impedit dolorum sapiente recusandae minima quo aperiam quam,
+            excepturi quasi totam ad quas? Ipsam laudantium soluta delectus!</p>
+    </div>
+
+    <div class="div div5 row" id="gift">
+        <div class="col imgDiv">
+            <img src="images/gift.png" alt="giftcard img" class="giftImg">
+        </div>
+        <div class="col giftcol">
+            <h4 class="giftHeading">Gift Cards</h4>
+            <p class="giftpara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque expedita tempore quasi
+                omnis a aut et totam
+                illo fuga accusamus dolorum vero, ut harum consectetur. Minima molestias officiis culpa non sed dicta
+                itaque. Et aliquam illo obcaecati molestias veritatis porro.</p>
+            <p>Already have an Orange MyTunes Music Gift Card?</p>
+            <hr class="gifthr">
+            <a href="#" onclick="document.getElementById('nav').scrollIntoView();" class="redeem" >>Redeem</a>
+        </div>
+    </div>
+
+
+    <div class="row footer">
+        <div class="col">
+            <h4 class="h4">Shop and Learn </h4>
+            <hr>
+            <ul class="ul">
+                <li><a class="a" href="#">Music</a></li>
+                <li><a class="a" href="#">movies</a></li>
+                <li><a class="a" href="#">Shows</a></li>
+                <li><a class="a" href="#">Apps</a></li>
+                <li><a class="a" href="#">Gift Cards</a></li>
+
+
+            </ul>
+        </div>
+        <div class="col">
+            <h4 class="h4">Orange Store</h4>
+            <hr>
+            <ul class="ul">
+                <li><a class="a" href="#">Find a Store</a></li>
+                <li><a class="a" href="#">Today at Orange</a></li>
+                <li><a class="a" href="#">Orange Camp</a></li>
+                <li><a class="a" href="#">Financing</a></li>
+                <li><a class="a" href="#"> Order Status</a></li>
+
+            </ul>
+        </div>
+
+        <div class="col">
+            <h4 class="h4">Education and Business</h4>
+            <hr>
+            <ul class="ul">
+                <li><a class="a" href="#">Orange & Education</a></li>
+                <li><a class="a" href="#">Shop For College</a></li>
+                <li><a class="a" href="#">Orange & Business</a></li>
+                <li><a class="a" href="#">Shop For Business</a></li>
+                <li><a class="a" href="#">Jobs</a></li>
+
+            </ul>
+        </div>
+
+        <div class="col">
+            <h4 class="h4">About Orange</h4>
+            <hr>
+            <ul class="ul">
+                <li><a class="a" href="#">Newsroom</a></li>
+                <li><a class="a" href="#">Orange Leadership</a></li>
+                <li><a class="a" href="#">Investors</a></li>
+                <li><a class="a" href="#">Events</a></li>
+                <li><a class="a" href="#">Contact Orange</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="div div6">
+        <p>Copyright © 2019 Orange myTunes</p>
+    </div>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
